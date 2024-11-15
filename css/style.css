@@ -1,0 +1,37 @@
+/*nav bar*/
+.navbar
+{
+border-color: rgb(255, 0, 0);
+padding:0.5px 0;
+border: 12px;
+border-radius: 5px;
+background-color:rgb(75, 122, 141);
+}
+.navlink
+{
+  list-style-type:none;
+  display: flex;
+  justify-content:right;
+  margin-right: 15px;
+
+}
+.navlink a
+{
+transition: background-color 0.1s ease-in;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+text-decoration:none;
+padding:15px 15px;
+border-radius: 5px;
+}
+.navlink a:hover{
+  color:navy;
+  background-color: blanchedalmond;
+border:solid rgb(12, 44, 82) 0.5px;
+  border-radius: 5px;
+}
+.navbar img{
+  margin: 20px 10px;
+  width: 100px;
+  justify-content: left;
+}
