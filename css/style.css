@@ -1,11 +1,14 @@
 /*nav bar*/
 .navbar
 {
-border-color: rgb(255, 0, 0);
-padding:0.5px 0;
+  background: linear-gradient(10deg, transparent, rgba(25, 67, 75, 0.74), transparent);
+    transition: .5s;
+  border-color: rgb(255, 255, 255);
+padding: 0.2em 15px;
 border: 12px;
 border-radius: 5px;
-background-color:rgb(75, 122, 141);
+background-color:rgb(0, 102, 109);
+
 }
 .navlink
 {
@@ -17,21 +20,49 @@ background-color:rgb(75, 122, 141);
 }
 .navlink a
 {
-transition: background-color 0.1s ease-in;
+transition: background-color 0.2s ease-in;
   color: rgb(255, 255, 255);
   font-size: 20px;
-text-decoration:none;
-padding:15px 15px;
-border-radius: 5px;
+text-decoration:antiquewhite;
+padding:5px 15px;
+border-radius: 0.5px;
 }
-.navlink a:hover{
-  color:navy;
-  background-color: blanchedalmond;
-border:solid rgb(12, 44, 82) 0.5px;
-  border-radius: 5px;
+.navlink a:hover
+{
+  color:rgb(247, 248, 156);
+  background-color: rgb(2, 57, 73);
+
+  border-radius: 95px;
 }
-.navbar img{
-  margin: 20px 10px;
-  width: 100px;
-  justify-content: left;
+.search input {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 25px;
+  width:300px;
+  border-radius: 8px;
+}
+
+ 
+
+.form{
+  color: blue;
+  font-size:larger;
+  margin-right: auto;
+  text-align:left;
+  list-style-type: none;
+ 
+
+}
+.login:hover
+{
+ font-style:bold;
+  border-top: 10px 55px;
+  
+}
+.login
+{
+  color:rgb(8, 8, 0);
+  border-radius: 95px;
+}
+.image{
+
 }
